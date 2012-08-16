@@ -13,12 +13,12 @@ var callGru = function(number) {
   try {
     gru(number);
   } catch(ex) {
-    println("oops... " + ex);
+    alert("oops... " + ex);
     if (ex instanceof Error) {
-      println("The message is " + ex.message);
+      alert("The message is " + ex.message);
     }
   } finally {
-    println("finally block called...");
+    alert("finally block called...");
   }
 }
 
