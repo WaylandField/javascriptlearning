@@ -3,5 +3,5 @@ var concat = function(str){
 };
 
 
-alert(concat.apply("name",["name"]));
-alert(concat.call("name","name"));
+console.log(concat.apply("name",["name"]));
+console.log(concat.call("name","name"));
